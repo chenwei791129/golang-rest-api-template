@@ -96,8 +96,10 @@ cd golang-rest-api-template
 3. Build and run the Docker containers
 
 ```bash
-make setup && make build && make up
+make up
 ```
+
+Please refer to the [Makefile](./Makefile) if you need to build in the local environment.
 
 ### Environment Variables
 

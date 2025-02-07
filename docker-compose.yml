@@ -6,8 +6,6 @@ services:
       dockerfile: Dockerfile
     ports:
       - 8001:8001
-    volumes:
-      - .:/app
     depends_on:
       - db
       - mongo
