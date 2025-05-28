@@ -1,7 +1,7 @@
 # golang-rest-api-template
 
 [![license](https://img.shields.io/badge/license-MIT-green)](https://raw.githubusercontent.com/araujo88/golang-rest-api-template/main/LICENSE)
-[![build](https://github.com/araujo88/golang-rest-api-template//actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/araujo88/golang-rest-api-template/actions/workflows/go.yml)
+[![build](https://github.com/chenwei791129/golang-rest-api-template//actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/chenwei791129/golang-rest-api-template/actions/workflows/go.yml)
 
 ## Overview
 
@@ -15,7 +15,6 @@ This repository provides a template for building a RESTful API using Go with fea
 - Swagger Documentation.
 - PostgreSQL database integration using GORM.
 - Redis cache.
-- MongoDB for logging storage.
 - Dockerized application for easy setup and deployment.
 
 ## Folder structure
