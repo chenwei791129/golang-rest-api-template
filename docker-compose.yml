@@ -8,7 +8,6 @@ services:
       - 8001:8001
     depends_on:
       - db
-      - mongo
     environment:
       POSTGRES_DB: go_app_dev
       POSTGRES_HOST: dockerPostgres
@@ -38,15 +37,3 @@ services:
     ports:
       - "6379:6379"
     container_name: dockerRedis
-
-  mongo:
-    image: mongo
-    container_name: dockerMongo
-    volumes:
-      - mongo_data:/data/db
-    ports:
-      - "27017:27017"
-    restart: always
-
-volumes:
-  mongo_data: # Declare the volume for MongoDB data
