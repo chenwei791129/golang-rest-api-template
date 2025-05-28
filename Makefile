@@ -11,7 +11,6 @@ build-docker:
 run-local:
 	docker start dockerPostgres
 	docker start dockerRedis
-	docker start dockerMongo
 	export REDIS_HOST=localhost
 	export POSTGRES_DB=go_app_dev
 	export POSTGRES_USER=docker
