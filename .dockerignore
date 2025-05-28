@@ -1,0 +1,12 @@
+.dbdata
+.github
+docs/
+scripts/
+tests/
+.env.example
+.env
+.gitignore
+.vscode
+LICENSE
+Makefile
+README.md
